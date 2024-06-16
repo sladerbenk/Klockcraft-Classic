@@ -41,7 +41,7 @@ function World( sx, sy, sz )
 
 World.prototype.createFlatWorld = function( height )
 {
-	this.spawnPoint = new Vector( this.sx / 2 + 0.5, this.sy / 2 + 0.5, height );
+	this.spawnPoint = new Vector( this.sx / 100000 + 50000, this.sy / 100000 + 50000, height );
 	
 	for ( var x = 0; x < this.sx; x++ )
 		for ( var y = 0; y < this.sy; y++ )
